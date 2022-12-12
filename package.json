@@ -1,0 +1,22 @@
+{
+  "name": "githubusercontent",
+  "version": "1.0.0",
+  "description": "My ISP blocked the raw.githubusercontent.com domain (😕), so I wrote code to bypass the restriction!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zo-Bro-23/githubusercontent.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zo-Bro-23/githubusercontent/issues"
+  },
+  "homepage": "https://github.com/Zo-Bro-23/githubusercontent#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
