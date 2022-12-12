@@ -2,7 +2,7 @@ const express = require('express')
 const axios = require('axios')
 const app = express()
 
-app.get('/(.*)', (req, res) => {
+app.get('/*', (req, res) => {
     if (!req.query.user || !req.query.repo || !req.query.path) {
         res.status(400).send('Error: Missing parameters (user, repo, path)')
     }
