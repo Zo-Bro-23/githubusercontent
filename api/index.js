@@ -13,7 +13,7 @@ app.get('/*', (req, res) => {
             res.header('Content-Type', response.headers['content-type']).send(response.data)
         })
         .catch(error => {
-            res.status(400).send(`Error: ${error.response}`)
+            res.status(400).send(`Error: ${JSON.stringify(error.response, null, 2)}`)
         })
 })
 
